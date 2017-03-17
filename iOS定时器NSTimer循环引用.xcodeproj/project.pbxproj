@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF7BFC591E7BC41100713EAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7BFC581E7BC41100713EAC /* main.m */; };
+		EF7BFC5C1E7BC41100713EAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7BFC5B1E7BC41100713EAC /* AppDelegate.m */; };
+		EF7BFC5F1E7BC41100713EAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7BFC5E1E7BC41100713EAC /* ViewController.m */; };
+		EF7BFC621E7BC41100713EAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7BFC601E7BC41100713EAC /* Main.storyboard */; };
+		EF7BFC641E7BC41100713EAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7BFC631E7BC41100713EAC /* Assets.xcassets */; };
+		EF7BFC671E7BC41100713EAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7BFC651E7BC41100713EAC /* LaunchScreen.storyboard */; };
+		EF7BFC721E7BC41100713EAC /* iOS___NSTimer____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7BFC711E7BC41100713EAC /* iOS___NSTimer____Tests.m */; };
+		EF7BFC7D1E7BC41100713EAC /* iOS___NSTimer____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7BFC7C1E7BC41100713EAC /* iOS___NSTimer____UITests.m */; };
+		EF7BFC8C1E7BC44E00713EAC /* SPNSTimerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7BFC8B1E7BC44E00713EAC /* SPNSTimerVC.m */; };
+		EF7BFC901E7BC84B00713EAC /* WeakTimerTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7BFC8F1E7BC84B00713EAC /* WeakTimerTarget.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF7BFC6E1E7BC41100713EAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7BFC4C1E7BC41100713EAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7BFC531E7BC41100713EAC;
+			remoteInfo = "iOS定时器NSTimer循环引用";
+		};
+		EF7BFC791E7BC41100713EAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7BFC4C1E7BC41100713EAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7BFC531E7BC41100713EAC;
+			remoteInfo = "iOS定时器NSTimer循环引用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF7BFC541E7BC41100713EAC /* iOS定时器NSTimer循环引用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS定时器NSTimer循环引用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7BFC581E7BC41100713EAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF7BFC5A1E7BC41100713EAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF7BFC5B1E7BC41100713EAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF7BFC5D1E7BC41100713EAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF7BFC5E1E7BC41100713EAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF7BFC611E7BC41100713EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF7BFC631E7BC41100713EAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF7BFC661E7BC41100713EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF7BFC681E7BC41100713EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7BFC6D1E7BC41100713EAC /* iOS定时器NSTimer循环引用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS定时器NSTimer循环引用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7BFC711E7BC41100713EAC /* iOS___NSTimer____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS___NSTimer____Tests.m"; sourceTree = "<group>"; };
+		EF7BFC731E7BC41100713EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7BFC781E7BC41100713EAC /* iOS定时器NSTimer循环引用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS定时器NSTimer循环引用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7BFC7C1E7BC41100713EAC /* iOS___NSTimer____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS___NSTimer____UITests.m"; sourceTree = "<group>"; };
+		EF7BFC7E1E7BC41100713EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7BFC8A1E7BC44E00713EAC /* SPNSTimerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPNSTimerVC.h; sourceTree = "<group>"; };
+		EF7BFC8B1E7BC44E00713EAC /* SPNSTimerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPNSTimerVC.m; sourceTree = "<group>"; };
+		EF7BFC8D1E7BC6C500713EAC /* SPTimer-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SPTimer-PrefixHeader.pch"; sourceTree = "<group>"; };
+		EF7BFC8E1E7BC84B00713EAC /* WeakTimerTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeakTimerTarget.h; sourceTree = "<group>"; };
+		EF7BFC8F1E7BC84B00713EAC /* WeakTimerTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeakTimerTarget.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF7BFC511E7BC41100713EAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7BFC6A1E7BC41100713EAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7BFC751E7BC41100713EAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF7BFC4B1E7BC41100713EAC = {
+			isa = PBXGroup;
+			children = (
+				EF7BFC561E7BC41100713EAC /* iOS定时器NSTimer循环引用 */,
+				EF7BFC701E7BC41100713EAC /* iOS定时器NSTimer循环引用Tests */,
+				EF7BFC7B1E7BC41100713EAC /* iOS定时器NSTimer循环引用UITests */,
+				EF7BFC551E7BC41100713EAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF7BFC551E7BC41100713EAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF7BFC541E7BC41100713EAC /* iOS定时器NSTimer循环引用.app */,
+				EF7BFC6D1E7BC41100713EAC /* iOS定时器NSTimer循环引用Tests.xctest */,
+				EF7BFC781E7BC41100713EAC /* iOS定时器NSTimer循环引用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF7BFC561E7BC41100713EAC /* iOS定时器NSTimer循环引用 */ = {
+			isa = PBXGroup;
+			children = (
+				EF7BFC5A1E7BC41100713EAC /* AppDelegate.h */,
+				EF7BFC5B1E7BC41100713EAC /* AppDelegate.m */,
+				EF7BFC5D1E7BC41100713EAC /* ViewController.h */,
+				EF7BFC5E1E7BC41100713EAC /* ViewController.m */,
+				EF7BFC8A1E7BC44E00713EAC /* SPNSTimerVC.h */,
+				EF7BFC8B1E7BC44E00713EAC /* SPNSTimerVC.m */,
+				EF7BFC8E1E7BC84B00713EAC /* WeakTimerTarget.h */,
+				EF7BFC8F1E7BC84B00713EAC /* WeakTimerTarget.m */,
+				EF7BFC8D1E7BC6C500713EAC /* SPTimer-PrefixHeader.pch */,
+				EF7BFC601E7BC41100713EAC /* Main.storyboard */,
+				EF7BFC631E7BC41100713EAC /* Assets.xcassets */,
+				EF7BFC651E7BC41100713EAC /* LaunchScreen.storyboard */,
+				EF7BFC681E7BC41100713EAC /* Info.plist */,
+				EF7BFC571E7BC41100713EAC /* Supporting Files */,
+			);
+			path = "iOS定时器NSTimer循环引用";
+			sourceTree = "<group>";
+		};
+		EF7BFC571E7BC41100713EAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF7BFC581E7BC41100713EAC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF7BFC701E7BC41100713EAC /* iOS定时器NSTimer循环引用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EF7BFC711E7BC41100713EAC /* iOS___NSTimer____Tests.m */,
+				EF7BFC731E7BC41100713EAC /* Info.plist */,
+			);
+			path = "iOS定时器NSTimer循环引用Tests";
+			sourceTree = "<group>";
+		};
+		EF7BFC7B1E7BC41100713EAC /* iOS定时器NSTimer循环引用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF7BFC7C1E7BC41100713EAC /* iOS___NSTimer____UITests.m */,
+				EF7BFC7E1E7BC41100713EAC /* Info.plist */,
+			);
+			path = "iOS定时器NSTimer循环引用UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF7BFC531E7BC41100713EAC /* iOS定时器NSTimer循环引用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7BFC811E7BC41100713EAC /* Build configuration list for PBXNativeTarget "iOS定时器NSTimer循环引用" */;
+			buildPhases = (
+				EF7BFC501E7BC41100713EAC /* Sources */,
+				EF7BFC511E7BC41100713EAC /* Frameworks */,
+				EF7BFC521E7BC41100713EAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS定时器NSTimer循环引用";
+			productName = "iOS定时器NSTimer循环引用";
+			productReference = EF7BFC541E7BC41100713EAC /* iOS定时器NSTimer循环引用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF7BFC6C1E7BC41100713EAC /* iOS定时器NSTimer循环引用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7BFC841E7BC41100713EAC /* Build configuration list for PBXNativeTarget "iOS定时器NSTimer循环引用Tests" */;
+			buildPhases = (
+				EF7BFC691E7BC41100713EAC /* Sources */,
+				EF7BFC6A1E7BC41100713EAC /* Frameworks */,
+				EF7BFC6B1E7BC41100713EAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF7BFC6F1E7BC41100713EAC /* PBXTargetDependency */,
+			);
+			name = "iOS定时器NSTimer循环引用Tests";
+			productName = "iOS定时器NSTimer循环引用Tests";
+			productReference = EF7BFC6D1E7BC41100713EAC /* iOS定时器NSTimer循环引用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF7BFC771E7BC41100713EAC /* iOS定时器NSTimer循环引用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7BFC871E7BC41100713EAC /* Build configuration list for PBXNativeTarget "iOS定时器NSTimer循环引用UITests" */;
+			buildPhases = (
+				EF7BFC741E7BC41100713EAC /* Sources */,
+				EF7BFC751E7BC41100713EAC /* Frameworks */,
+				EF7BFC761E7BC41100713EAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF7BFC7A1E7BC41100713EAC /* PBXTargetDependency */,
+			);
+			name = "iOS定时器NSTimer循环引用UITests";
+			productName = "iOS定时器NSTimer循环引用UITests";
+			productReference = EF7BFC781E7BC41100713EAC /* iOS定时器NSTimer循环引用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF7BFC4C1E7BC41100713EAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = shinephe;
+				TargetAttributes = {
+					EF7BFC531E7BC41100713EAC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					EF7BFC6C1E7BC41100713EAC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF7BFC531E7BC41100713EAC;
+					};
+					EF7BFC771E7BC41100713EAC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF7BFC531E7BC41100713EAC;
+					};
+				};
+			};
+			buildConfigurationList = EF7BFC4F1E7BC41100713EAC /* Build configuration list for PBXProject "iOS定时器NSTimer循环引用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF7BFC4B1E7BC41100713EAC;
+			productRefGroup = EF7BFC551E7BC41100713EAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF7BFC531E7BC41100713EAC /* iOS定时器NSTimer循环引用 */,
+				EF7BFC6C1E7BC41100713EAC /* iOS定时器NSTimer循环引用Tests */,
+				EF7BFC771E7BC41100713EAC /* iOS定时器NSTimer循环引用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF7BFC521E7BC41100713EAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7BFC671E7BC41100713EAC /* LaunchScreen.storyboard in Resources */,
+				EF7BFC641E7BC41100713EAC /* Assets.xcassets in Resources */,
+				EF7BFC621E7BC41100713EAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7BFC6B1E7BC41100713EAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7BFC761E7BC41100713EAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF7BFC501E7BC41100713EAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7BFC5F1E7BC41100713EAC /* ViewController.m in Sources */,
+				EF7BFC901E7BC84B00713EAC /* WeakTimerTarget.m in Sources */,
+				EF7BFC5C1E7BC41100713EAC /* AppDelegate.m in Sources */,
+				EF7BFC8C1E7BC44E00713EAC /* SPNSTimerVC.m in Sources */,
+				EF7BFC591E7BC41100713EAC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7BFC691E7BC41100713EAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7BFC721E7BC41100713EAC /* iOS___NSTimer____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7BFC741E7BC41100713EAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7BFC7D1E7BC41100713EAC /* iOS___NSTimer____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF7BFC6F1E7BC41100713EAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF7BFC531E7BC41100713EAC /* iOS定时器NSTimer循环引用 */;
+			targetProxy = EF7BFC6E1E7BC41100713EAC /* PBXContainerItemProxy */;
+		};
+		EF7BFC7A1E7BC41100713EAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF7BFC531E7BC41100713EAC /* iOS定时器NSTimer循环引用 */;
+			targetProxy = EF7BFC791E7BC41100713EAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF7BFC601E7BC41100713EAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7BFC611E7BC41100713EAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF7BFC651E7BC41100713EAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7BFC661E7BC41100713EAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF7BFC7F1E7BC41100713EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF7BFC801E7BC41100713EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF7BFC821E7BC41100713EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/shinephe/Desktop/iOS定时器NSTimer循环引用/iOS定时器NSTimer循环引用/SPTimer-PrefixHeader.pch";
+				INFOPLIST_FILE = "iOS定时器NSTimer循环引用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pumin.iOS---NSTimer----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF7BFC831E7BC41100713EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/shinephe/Desktop/iOS定时器NSTimer循环引用/iOS定时器NSTimer循环引用/SPTimer-PrefixHeader.pch";
+				INFOPLIST_FILE = "iOS定时器NSTimer循环引用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pumin.iOS---NSTimer----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF7BFC851E7BC41100713EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS定时器NSTimer循环引用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pumin.iOS---NSTimer----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS定时器NSTimer循环引用.app/iOS定时器NSTimer循环引用";
+			};
+			name = Debug;
+		};
+		EF7BFC861E7BC41100713EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS定时器NSTimer循环引用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pumin.iOS---NSTimer----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS定时器NSTimer循环引用.app/iOS定时器NSTimer循环引用";
+			};
+			name = Release;
+		};
+		EF7BFC881E7BC41100713EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS定时器NSTimer循环引用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pumin.iOS---NSTimer----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS定时器NSTimer循环引用";
+			};
+			name = Debug;
+		};
+		EF7BFC891E7BC41100713EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS定时器NSTimer循环引用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pumin.iOS---NSTimer----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS定时器NSTimer循环引用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF7BFC4F1E7BC41100713EAC /* Build configuration list for PBXProject "iOS定时器NSTimer循环引用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7BFC7F1E7BC41100713EAC /* Debug */,
+				EF7BFC801E7BC41100713EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7BFC811E7BC41100713EAC /* Build configuration list for PBXNativeTarget "iOS定时器NSTimer循环引用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7BFC821E7BC41100713EAC /* Debug */,
+				EF7BFC831E7BC41100713EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF7BFC841E7BC41100713EAC /* Build configuration list for PBXNativeTarget "iOS定时器NSTimer循环引用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7BFC851E7BC41100713EAC /* Debug */,
+				EF7BFC861E7BC41100713EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF7BFC871E7BC41100713EAC /* Build configuration list for PBXNativeTarget "iOS定时器NSTimer循环引用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7BFC881E7BC41100713EAC /* Debug */,
+				EF7BFC891E7BC41100713EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF7BFC4C1E7BC41100713EAC /* Project object */;
+}
