@@ -1,2 +1,2 @@
 # NSTimerCycleQuote
-#####iOS定时器NSTimer循环引用
+ > iOS定时器NSTimer循环引用
